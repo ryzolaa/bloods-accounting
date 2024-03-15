@@ -1,0 +1,386 @@
+/* body {
+    margin: 0;
+    left: 0;
+} */
+
+/*############################################################
+###########################FORM###############################
+############################################################*/
+
+.formBox {
+    width: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border: solid 5px black;
+    border-radius: 10px;
+    padding: 30px;
+    background: rgba(133, 133, 133, 0.503);
+    gap: 10px;
+}
+
+.formTitle {
+    text-align: center;
+}
+
+.formBoxAccount {
+    width: 600px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border: solid 5px black;
+    border-radius: 10px;
+    padding: 30px;
+    background: rgba(133, 133, 133, 0.503);
+    gap: 10px;
+}
+
+.formEditPass {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}
+
+/*############################################################
+##########################USERS##############################
+############################################################*/
+
+.titleUsers {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.users {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border: 4px black solid;
+    border-radius: 10px;
+    background-color: rgba(101, 101, 101, 0.204);
+    width: auto;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/*############################################################
+##########################ACCOUNT##############################
+############################################################*/
+
+
+.contentProfil {
+    margin: 0;
+    border: solid black 2px;
+}
+
+.contentEditAccount {
+    margin: 5px;
+}
+
+.editAccountBox {
+    display: flex;
+    flex-direction: column;
+}
+
+/*############################################################
+###########################ADMIN##############################
+############################################################*/
+
+.adminCardBox {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.adminCard {
+    height: fit-content;
+    background: rgba(105, 101, 101, 0.308);
+    width: 18rem;
+    border: solid 3px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.adminCardTitle {
+    text-align: left;
+}
+
+.cardComponent {
+    list-style-type: none;
+    height: 15px;
+    border: solid 1px rgba(95, 92, 92, 0.377);
+    width: auto;
+    background: white;
+}
+
+.cardComponentText {
+    list-style-type: none;
+    height: auto;
+    padding: 5px;
+    border: solid 1px rgba(95, 92, 92, 0.377);
+    width: auto;
+    background: white;
+}
+
+/*############################################################
+#############################ROLE############################
+############################################################*/
+
+.userRoleBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/*############################################################
+#########################CASHOUT##############################
+############################################################*/
+
+.cashOutBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 99;
+    height: auto;
+    width: 700px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background: rgba(18, 18, 19, 0.801);
+    color: white;
+}
+
+.crossShopBox { 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 30px;
+    background: white;
+    margin-top: -1px;
+}
+
+.x {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.x::before,
+.x::after {
+  content: "";
+  display: block;
+  margin-top: -3px;
+  width: 20px;
+  height: 3px;
+  background: #000;
+  border-radius: 1px;
+}
+
+.x::before {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .x::after {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.cashOutBoxBox {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    border: solid 3px white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.titleCashOutBox {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.resumCashOutBox0 {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.titleResumCashOutBox {
+    color: white;
+    text-decoration: underline;
+}
+
+.resumCashOutBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+
+.resumCashOutLine{
+    border: 2px white solid;
+    border-radius: 10px;
+}
+ 
+.resumCashOutBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cashOutBoxButton {
+    text-decoration: none;
+    border: 1px black;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    background: rgb(0,48,135);
+    cursor: pointer;
+}
+
+.cashOutPaypal {
+    height: 100px;
+    width: 100px;
+}
+  
+
+/*############################################################
+############################COIN##############################
+############################################################*/
+
+.coinEdit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border: 4px black solid;
+    border-radius: 10px;
+    background-color: rgba(101, 101, 101, 0.204);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/*############################################################
+############################HOME##############################
+############################################################*/
+
+/*###########################ORB############################*/
+.orb {
+    z-index: 1;
+    animation: spin 2s linear infinite;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 
+    inset 0 0 50px #fff,
+    inset 20px 0 60px violet,
+    inset -20px 0 60px blue,
+    inset 20px 0 300px violet,
+    inset -20px 0 300px blue,
+    0 0 30px #fff,
+    -10px 0 40px violet,
+    10px 0 40px blue
+}
+
+@keyframes spin {
+    0% {
+        top: 20px;
+    }
+    25% {
+        top: 22px;
+    }
+    50% {
+        top: 30px;
+    }
+    75% {
+        top: 27px;
+    }
+    100% {
+        transform: rotate(360deg);
+        top: 20px;
+    }
+}
+
+/*###########################CLOCK###########################*/
+
+.glassmorphism {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 450px;
+    height: 160px;
+    border-top: 1px solid #FFFFFF75;
+    border-left: 1px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #ffffff02;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    /* margin-top: 38%;
+    margin-left: 38%; */
+    color: white;
+    font-size: 95px;
+    font-weight: bold;
+    animation: homeElementPop ease 3s;
+}
+
+.clockText {
+    z-index: 3;
+    position: absolute;
+    left: 58.5%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    animation: homeElementPop ease 3s;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@keyframes homeElementPop {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
