@@ -1,0 +1,55 @@
+body {
+background: black !important;
+}
+
+.adminPannelLeft {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    overflow-y: hidden;
+    width: 350px;
+    height: 100%;
+    background: rgb(69, 0, 126);
+    padding: 10px;
+    gap: 10px;
+    border-top-right-radius: 12px;
+}
+
+.shape1 {
+    clip-path: polygon(0 1%, 100% 0%, 95% 100%, 0% 100%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgb(252, 252, 102);
+    height: 40px;
+    padding: 6px 7px 7px 15px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 750;
+    font-size: 20px;
+    color: rgb(69, 0, 126);
+}
+
+.shape2 {
+    clip-path: polygon(0 0, 95% 0, 95% 100%, 0% 100%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgb(252, 252, 102);
+    height: 40px;
+    padding: 6px 7px 7px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.shape3 {
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgb(252, 252, 102);
+    height: 40px;
+    padding: 6px 7px 7px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
