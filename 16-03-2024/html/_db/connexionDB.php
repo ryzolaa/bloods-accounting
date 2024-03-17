@@ -1,9 +1,9 @@
 <?php
 function connectToDatabase() {
-    $host = 'localhost';
-    $dbname = 'compta_bloods';
-    $username = 'root';
-    $password = 'root';
+    $host = '';
+    $dbname = '';
+    $username = '';
+    $password = '';
 
     try {
         $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
